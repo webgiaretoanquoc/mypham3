@@ -1,0 +1,317 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+@font-face {
+	font-family:'SFUFuturaBold';
+	src: url('/wp-content/themes/my-pham/font/SFUFuturaBold.eot');
+	src: url('/wp-content/themes/my-pham/font/SFUFuturaBold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/my-pham/font/SFUFuturaBold.woff2') format('woff2'),
+		url('/wp-content/themes/my-pham/font/SFUFuturaBold.woff') format('woff'),
+		url('/wp-content/themes/my-pham/font/SFUFuturaBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{font-family:"SFUFuturaBold", sans-serif}.section-title b{background-color: transparent;}
+.dau-trang-section .col{padding-bottom:0}
+.san-pham-section .tabbed-content ul li.active a{    background-color: #dac7b6 !important; color:white !important}
+.product-small.box{box-shadow: 1px 2px 4px #0000001c;}
+.product-small.box .box-image{    padding: 20px;
+	background: #f1f1f1;}
+.product-small.box .box-image .image-cover{    border-radius: 10px;
+	box-shadow: 2px 2px 10px #0000001a;}
+.san-pham-section .tabbed-content ul li a{border: 1px solid #d4d4d4;
+	padding: 2px 25px;
+	font-family: "roboto", sans-serif; font-weight:normal; color:gray}
+.san-pham-section .tabbed-content ul li{margin:0 5px}
+.header-main .nav > li > a {
+	line-height: 16px;
+	font-family: "roboto", sans-serif;
+
+	letter-spacing: 0;
+	font-size: 16px;font-weight:500}
+#header-contact li a, .nav-small.nav>li.html{text-transform: none;
+
+	font-family: "roboto", sans-serif;
+	font-size: 14px;
+	letter-spacing: 0;}
+.dau-trang-section .icon-box:hover{box-shadow: 2px 2px 20px #00000017;
+	border: 1px solid #e2e2e2; background:white}
+.dau-trang-section .icon-box{    background: #efefef;
+	padding-top: 30px;
+	border-radius: 10px;border:1px solid #e2e2e2}.section-title-center span:after {
+		content: "";
+		display: table;
+		clear: both;
+		background: url(../../uploads/2019/10/line.png);
+		width: 100%;
+		height: 20px;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: bottom;
+		padding-top: 0;
+}
+.dau-trang-section .box .box-image{border-bottom-left-radius:10px; border-bottom-right-radius:10px}
+.dau-trang-section .box .box-text{padding:0}
+.dau-trang-section .box h3{ font-size: 20px;
+	font-family: "roboto", sans-serif;
+	font-weight: normal;}
+.product-small.box .product-title{margin-bottom: 10px;
+	font-family: "roboto", sans-serif;font-weight:500;
+	font-size: 16px;
+	color: #4a4a4a;    height: 41px;
+	overflow: hidden;}
+.product-small.box .price span.amount, .product-small.box .price ins span{    color: #009688;
+	font-size: 16px;
+	font-family: "roboto", sans-serif;
+	font-weight: normal;}
+.badge-container{margin:10px}
+.badge-container .badge-inner{border-radius:99%; font-size: 14px;
+	font-weight: normal;}
+
+.list-post .post-item .box-text{padding:10px; background:white}
+.list-post .post-item .post-title{   margin-bottom: 10px;
+	text-transform: none;
+	font-weight: 500;
+	font-family: "roboto", sans-serif;
+	font-size: 18px;
+	color: black;}body{font-family:"roboto", sans-serif; font-weight:normal}
+.tin-tuc-section .col{padding-bottom:0}
+
+.nut-xem-them{font-family: "roboto", sans-serif;font-size:15px; font-weight:normal}
+.doi-tac-section .col, .bottom-footer .col{padding-bottom:0}
+.nav-dropdown{border:none}
+.nhan-xet-section .cot1{background:url(../../uploads/2019/10/45.jpg) no-repeat; background-position:center}.footer-section .col{padding-bottom:0}
+a.back-to-top{background:#dac7b6 !important; border:none !important; color:white !important}
+.nhan-xet-section .icon-box .icon-box-img img{border-radius:99%; padding-top:0; border:3px solid white}
+.nhan-xet-section .col, .bao-chi-section .col{padding-bottom:0}
+.product-small.box .price del span, .product-small.box .price{font-size:14px !important; color:gray !important}footer-secondary {
+	padding: 0;
+}.footer-secondary {
+	padding: 0;
+}.footer-section .col{padding-bottom:0}
+.archive .product-small.box .box-image{padding-top: 100%;}
+.archive .product-small.box .box-text{padding:10px}
+.header-main {
+	box-shadow: 2px 2px 20px #0000000d;
+}.single-product .product-info {
+	border-right: none;
+	padding-bottom: 0;
+}.single-product #product-sidebar {
+	padding-left: 0;
+	padding-bottom: 0;
+}.hotline-tu-van {
+	background: #fffdf8;
+	padding: 10px;
+	font-size: 15px;
+	color: #464646;
+	border: 1px dashed orange;
+}span.widget-title {
+	font-size: 22px;
+	font-weight: 500;
+	letter-spacing: 0;
+	text-transform: none;
+	display: block;
+	margin-bottom: 10px;
+
+	color: black;
+}.widget ul {
+	border: 1px solid #ececec;
+}.single-product .textwidget ul li {
+	font-size: 15px;
+	border-bottom: 1px solid #ececec;
+	padding: 5px 10px;
+	background: white;
+	margin-bottom: 0;
+}
+.single-product .price del span, .single-product .price{color:gray !important; font-size:15px !important}
+form{margin-bottom:0}
+.cart{margin-top:15px}
+a.devvn_buy_now_style:hover, a.devvn_buy_now_style:focus, a.devvn_buy_now_style, .devvn-popup-title, .popup-customer-info-group .devvn-order-btn{background:#464646}
+
+.single-product .price span.amount, .single-product .price ins span{color:red; font-size:22px; font-weight:normal}
+.devvn-popup-inner{ font-family: "SFUFutura", sans-serif;}
+.single-product .product-info .product-title {    font-family: "SFUFutura", sans-serif;
+	font-size: 24px;
+}h1.entry-title.mb {
+	margin-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 0;
+}.product_meta>span {
+
+	font-size: 15px;
+	color: gray;
+}.widget .is-divider{display:none}
+.related .product-small .box-text{padding:15px}#reply-title{font-family: "SFUFutura", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;}
+.related h3{margin: 0;
+	letter-spacing: 0;
+	padding-bottom: 21px;}
+.woocommerce-tabs ul li a{    font-family: "SFUFutura", sans-serif; font-size:19px; font-weight:normal;
+	border-top: 1px solid #ececec;}
+.box-blog-post .is-divider{display:none}
+.blog-archive {background:#f5f5f5}
+.blog-archive .post-item .box-text{padding:10px; background:white}
+.blog-archive .post-item .box-text .post-title{font-family: "roboto", sans-serif;
+	text-transform: none;
+	font-weight: 500; font-size:18px;
+	margin-bottom: 10px;}
+.blog-archive .badge{display:none}
+.blog-single .entry-meta{  text-transform: none;
+	font-size: 13px;
+	letter-spacing: 0;
+	color: gray;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 10px;
+	background: #f9f9f9;}.entry-content {
+		padding-top: 0;
+		padding-bottom: 0;
+}
+.blog-single .large-3{padding-left:0}.recent-blog-posts {
+	padding: 8px 10px;
+}.xem-them .tieu-de-xem-them {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 19px;
+	color: black;
+}.xem-them ul li {
+	margin-bottom: 3px;
+}.xem-them ul li a {
+	font-weight: 500;
+	font-size: 15px;
+	color: #c30000;
+}
+.xem-them ul li a:hover{text-decoration:underline}
+.blog-single .blog-share{text-align:left}
+.recent-blog-posts a {font-weight:500;
+	font-size: 15px;
+}.recent-blog-posts:hover{background:#efefef}.recent-blog-posts a:hover{color:black}
+.blog-single .entry-title{text-transform: none;
+	font-family: "roboto", sans-serif;
+	font-size: 24px;
+	font-weight: 500;}
+.footer-section{border-top: 1px solid #f3f3f3;    box-shadow: -2px -2px 10px #0000000a;}.danh-muc {
+	margin-bottom: 15px;
+}.danh-muc span.title, .the-tim-kiem span.title {
+	background: #c5bf89;
+	padding: 4px 10px;
+	color: white;
+	margin-right: 5px;
+}.danh-muc a, .the-tim-kiem a {
+	margin-bottom: 10px;
+	padding: 4px 10px;
+	background: #dedede;
+	color: #464646;
+}.danh-muc a:hover, .the-tim-kiem a:hover {
+	background: #dac7b6;
+	color: white;
+}.bai-viet-lien-quan {
+	margin-top: 15px;
+}.bai-viet-lien-quan h3 {font-size: 19px;
+	color: black;
+	font-family: "roboto", sans-serif;
+	text-transform: none;
+	font-weight: 500;
+}.bai-viet-lien-quan ul {
+	margin-bottom: 0;
+	display: inline-block;
+	width: 100%;
+}.bai-viet-lien-quan ul li {
+	list-style: none;
+	width: 25%;
+	color: graytext;
+	float: left;
+	padding-left: 4px;
+	padding-right: 5px;
+}.bai-viet-lien-quan ul li .box-image img {
+	height: 120px;
+	border-radius: 6px;
+	object-fit: cover;
+	object-position: center;
+}.bai-viet-lien-quan h4 {
+	font-size: 15px;
+	color: black;
+	line-height: 19px;
+	padding-top: 7px;
+	height: 64px;
+	overflow: hidden;
+	font-weight: 500;
+	font-family: "roboto", sans-serif;
+}.is-divider{display:none}
+.bai-viet-lien-quan h4:hover{text-decoration:underline}
+.page-right-sidebar .large-3{padding-left:0}
+.page-right-sidebar .large-9{border-right:none}
+.page-right-sidebar .page-inner ul, .blog-single .entry-content ul{margin-left:20px}
+.blog-single .entry-content h2, .page-right-sidebar .page-inner h2{font-size:21px;font-family:"roboto",sans-serif}
+.blog-single .entry-content h3, .page-right-sidebar .page-inner h3{font-size:20px;font-family:"roboto",sans-serif}
+.blog-single .entry-content h4, .page-right-sidebar .page-inner h4{font-size:19px;font-family:"roboto",sans-serif}
+.blog-single .entry-content h5, .page-right-sidebar .page-inner h5{font-size:18px;font-family:"roboto",sans-serif}
+.blog-single .entry-content h6, .page-right-sidebar .page-inner h6{font-size:17px;font-family:"roboto",sans-serif}.form-mua-hang-truc-tuyen {display: inline-block;
+	width: 100%;
+	clear: both;
+	background: #fffbf7;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px dashed #FF9800;
+}.form-mua-hang-truc-tuyen .left {
+	width: 50%;
+	float: left;
+	padding-right: 10px;
+	display: inline-block;
+}.form-mua-hang-truc-tuyen .right {
+	width: 50%;
+	float: right;
+	display: inline-block;
+	padding-left: 10px;
+}.form-mua-hang-truc-tuyen .des, .form-tim-diem-ban .des {
+	font-size: 15px;
+	margin-bottom: 10px;
+}input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea, select {
+	font-size: 15px;
+	border-radius: 5px;
+	box-shadow: none;
+}.section-title-container {
+	margin-bottom: 0;
+}.row-diem-ban ul li {
+	margin-bottom: 3px;
+}.form-tim-diem-ban {
+	background: #fffbf7;
+	padding: 20px;
+	border: 1px dashed #ff9800;
+	border-radius: 4px;
+}p.form-row-first{width:100%}
+.lich-su-section .cot1{right:-19px}
+.lich-su-section .cot2{left:-19px}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	.blog-single .large-3{padding-left:15px}
+	.widget img{width:100%}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-transform: none;
+		font-size: 16px;
+	}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li ul{padding-bottom:0}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li ul li a{font-size:15px; padding-top:6px; padding-bottom:6px}body{word-break:break-word}.dau-trang-section .box h3 {    font-size: 16px;
+		margin-top: 19px;
+	}.dau-trang-section .col{padding-bottom:20px}.san-pham-section .tabbed-content ul li a{margin-bottom:10px}
+	.list-san-pham .col{padding:0 5px 10px}.nhan-xet-section .col, .bao-chi-section .col, .tin-tuc-section .col{padding-bottom:15px}.bao-chi-section .col.large-2{flex-basis:50%; max-width:50%}
+	.footer-section .col, .bottom-footer .col{flex-basis:100%; max-width:100%}
+	.lich-su-section .fill{background-position-x: 58.15%;}
+	.blog-archive .post-item{flex-basis:50%;max-width:50%; padding:0 5px 10px}
+	.blog-archive .post-item .from_the_blog_excerpt {display:none}.blog-archive .post-item .box-text .post-title{font-size:15px}.bai-viet-lien-quan ul li{width:50%}.bai-viet-lien-quan ul li .box-image img{height:100px}
+	.footer-section .col .icon-box .icon-box-img{width:105px !important}
+	.navigation-post a{font-size:14px}
+
+}
